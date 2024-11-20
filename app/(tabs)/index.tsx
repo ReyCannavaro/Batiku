@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Image, StyleSheet, TextInput, ScrollView, View, Text, TouchableOpacity, FlatList } from 'react-native';
 import { Ionicons } from 'react-native-vector-icons';
+import { Link } from 'expo-router'; // Ensure you are using Link from expo-router or your routing library
 import appData from '../../data/appdata.json'; 
 
 export default function HomeScreen() {
@@ -8,7 +9,6 @@ export default function HomeScreen() {
   const [selectedCategory, setSelectedCategory] = useState('Semua'); 
   const batiks = appData.batiks; 
 
- 
   const filteredBatiks = batiks.filter((batik) => {
     const matchesQuery =
       batik.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -38,7 +38,6 @@ export default function HomeScreen() {
         </TouchableOpacity>
       </View>
 
-
       <View style={styles.bannerContainer}>
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           <View style={styles.banner}>
@@ -57,7 +56,6 @@ export default function HomeScreen() {
           </View>
         </ScrollView>
       </View>
-
 
       <View style={styles.categories}>
         <Text style={styles.sectionTitle}>Asal Batik</Text>
@@ -84,7 +82,6 @@ export default function HomeScreen() {
         </ScrollView>
       </View>
 
-
       <View style={styles.featuredSection}>
         <Text style={styles.sectionTitle}>Macam Batik</Text>
         <FlatList
@@ -97,12 +94,9 @@ export default function HomeScreen() {
               <Image source={{ uri: item.image }} style={styles.productImage} />
               <Text style={styles.productName}>{item.name}</Text>
               <Text style={styles.productOrigin}>Asal dari {item.origin}</Text>
-              <TouchableOpacity
-                style={styles.readMoreButton}
-                onPress={() => navigation.navigate('../../app/Detail/detailbatik.tsx', { batikId: batiks.id })}
-              >
+              <Link href={`/team/[id].js${item.id}`} style={styles.readMoreButton}>
                 <Text style={styles.readMoreText}>Selengkapnya</Text>
-              </TouchableOpacity>
+              </Link>
             </View>
           )}
         />
