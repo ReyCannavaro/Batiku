@@ -1,0 +1,24 @@
+{
+  "batiks": [
+    { "id": "1", "name": "Batik Parang", "origin": "Yogyakarta", "image": "https://sonobudoyo.jogjaprov.go.id/resource/uploads/img/news/header_Screen_Shot_2024-10-06_at_18_37_53.png", "description": "Batik Parang merupakan salah satu motif batik tertua di Indonesia. Motif ini melambangkan perjuangan tanpa henti untuk mencapai kebaikan." },
+    { "id": "2", "name": "Batik Kawung", "origin": "Surakarta", "image": "https://i.pinimg.com/736x/c5/79/3d/c5793d2abfbce3dafe5bae4dd9b94296.jpg" },
+    { "id": "3", "name": "Batik Mendung", "origin": "Cirebon", "image": "https://cdn1-production-images-kly.akamaized.net/FaHDEEBqtXj06hMchKhEd6Z-QYU=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1007116/original/028577700_1443707050-Batik-Mega-Mendung.jpg" },
+    { "id": "4", "name": "Batik Truntum", "origin": "Solo", "image": "https://cdn0-production-images-kly.akamaized.net/9MR_2ht4TjQX3K16EPJUiUoceAo=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1507162/original/054823500_1487067551-batik_truntum.jpg" },
+    { "id": "5", "name": "Batik Lurik", "origin": "Yogyakarta", "image": "https://www.shutterstock.com/image-vector/illustration-famous-batik-lurik-indonesia-260nw-2103850457.jpg" },
+    { "id": "6", "name": "Batik Semen", "origin": "Yogyakarta", "image": "https://www.batikprabuseno.com/artikel/wp-content/uploads/2023/04/batik-motif-semen-rante.jpg" },
+    { "id": "7", "name": "Batik Ceplok", "origin": "Jawa Tengah", "image": "https://telusurkultur.com/cdn/shop/articles/Cover_Blog_Dienvibi_-_2024-01-31T232608.124.jpg?v=1706718981" },
+    { "id": "8", "name": "Batik Sidomukti", "origin": "Surakarta", "image": "https://thephrase.s3.amazonaws.com/img/012024/5490d3ac156d6928a0f87a89ffa68eeb6d0534ca.webp" },
+    { "id": "9", "name": "Batik Pucuk Rebung", "origin": "Cirebon", "image": "https://i0.wp.com/rumahbatikbedjo.com/wp-content/uploads/2023/08/pucuk-rebung-betawi.png?resize=842%2C570&ssl=1" },
+    { "id": "10", "name": "Batik Tambal", "origin": "Jember", "image": "https://fitinline.com/data/article/20151009/Batik-Tambal-000.jpg" },
+    { "id": "11", "name": "Batik Mendung", "origin": "Cirebon", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkU3KwzSNXEhrNDzfuH4FCzGIKhQ_WDUg8zg&s" },
+    { "id": "12", "name": "Batik Lasem", "origin": "Rembang", "image": "https://www.infobatik.com/wp-content/uploads/2020/11/batik-lasem-motif-burung-hong.jpg" },
+    { "id": "13", "name": "Batik Tujuh Rupa", "origin": "Pekalongan", "image": "https://javanologi.uns.ac.id/wp-content/uploads/sites/26/2022/10/7rupa-1-1.jpg" },
+    { "id": "14", "name": "Batik Priyangan", "origin": "Tasikmalaya", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAFDSjYS0uhONfW7L-z4qXkHbSgjnNtfG2Bg&s" },
+    { "id": "15", "name": "Batik Grompol", "origin": "Yogyakarta", "image": "https://www.shutterstock.com/image-vector/yogyakarta-batik-motif-ceplok-grompol-600w-1788643547.jpg" },
+    { "id": "16", "name": "Batik Sekar Jagad", "origin": "Solo", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCbBuy3R-nuO5kcNP-nNo0lcuI5gbF56sqLQ&s" },
+    { "id": "17", "name": "Batik Betawi", "origin": "Jakarta", "image": "https://asset.kompas.com/crops/toWuwzuFSMmcoUOqYpIJDlEZKCI=/0x0:600x400/750x500/data/photo/2022/05/19/6285dc358cde6.jpg" },
+    { "id": "18", "name": "Batik Cendrawasih", "origin": "Papua", "image": "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/ketiknews/original/210803133618-mengu.jpg" },
+    { "id": "19", "name": "Batik Tumpal", "origin": "Jawa Barat", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcKIIket4S3QRFvgQiaTUUPRbUBgxpHrT2Sw&s" },
+    { "id": "20", "name": "Batik Keraton", "origin": "Yogyakarta", "image": "https://penelitianpariwisata.id/wp-content/uploads/2023/03/d14ab8b9d8b395fc8d63de504fa15f50.jpg" }
+  ]
+}
