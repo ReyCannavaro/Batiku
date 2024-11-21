@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { Image, StyleSheet, TextInput, ScrollView, View, Text, TouchableOpacity, FlatList } from 'react-native';
 import { Ionicons } from 'react-native-vector-icons';
-import { Link } from 'expo-router'; // Ensure you are using Link from expo-router or your routing library
+import { Link } from 'expo-router'; 
 import appData from '../../data/appdata.json'; 
+import { Redirect } from 'expo-router';
 
+export default function Index() {
+  return <Redirect href="../app/screen/SplashScreen.js" />;
+}
 export default function HomeScreen() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('Semua'); 

@@ -34,4 +34,15 @@
       "typedRoutes": true
     }
   }
+
+  {
+    "expo": {
+      "splash": {
+        "image": "./assets/images/batiku-logo.webp",
+        "resizeMode": "contain", 
+        "backgroundColor": "#EFE6DD"
+      }
+    }
+  }
+  
 }

@@ -148,12 +148,13 @@ const BATIKS = {
 export default function TeamScreen() {
   const { id } = useLocalSearchParams(); 
 
-  const team = HISTORY[id]; 
+  const team = BATIKS[String(id)]; // Pastikan id cocok sebagai string
+
 
   if (!team) {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Destinasi tidak ditemukan</Text>
+        <Text style={styles.title}>Detail tidak ditemukan</Text>
       </View>
     );
   }
